@@ -73,7 +73,7 @@
         const opt2 = document.getElementById('opt2');
         const answer = document.getElementById('javob');
 
-                function binaryToDecimal(binary) {
+        function binaryToDecimal(binary) {
             let decimal = parseInt(binary, 2);
             return decimal;
         }
@@ -125,6 +125,16 @@
             let decimal = parseInt(hex, 16);
             let octal = decimal.toString(8);
             return octal;
+        }
+        function binaryToOctal(binary) {
+            let decimal = parseInt(binary, 2);
+            let octal = decimal.toString(8);
+            return octal;
+        }
+        function octalToBinary(octal) {
+            let decimal = parseInt(octal, 8);
+            let binary = decimal.toString(2);
+            return binary;
         }
 
         form.addEventListener('submit', (e) => {
