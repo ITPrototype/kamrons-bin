@@ -1,0 +1,16 @@
+{
+  "name": "Kamrons Bin",
+  "short_name": "KBin",
+  "description": "Binary, Decimal, Octal, and Hexadecimal Converter",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#007bff",
+  "icons": [
+    {
+      "src": "icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    }
+  ]
+}
